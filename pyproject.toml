@@ -1,0 +1,16 @@
+[project]
+name = "hash-analyzer"
+version = "1.0.0"
+description = "Identify the algorithm behind an unknown hash string from its prefix, structure and length."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "faypap" }]
+dependencies = []
+
+[project.optional-dependencies]
+dev = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
