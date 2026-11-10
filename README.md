@@ -220,11 +220,15 @@ The suite has 29 tests covering prefix detection, the structural formats, hex le
 
 ```text
 Hash-analyzer/
-├── hash_analyzer.py        # Detection engine and command-line interface
+├── .github/
+│   └── workflows/
+│       └── tests.yml
 ├── tests/
-│   └── test_analyzer.py    # pytest suite
-├── pyproject.toml          # Project metadata and pytest configuration
+│   └── test_analyzer.py
+├── .gitignore
+├── hash_analyzer.py
 ├── LICENSE
+├── pyproject.toml
 └── README.md
 ```
 
