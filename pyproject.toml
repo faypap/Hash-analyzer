@@ -1,5 +1,5 @@
 [project]
-name = "hash-analyzer"
+name = "Hash-analyzer"
 version = "1.0.0"
 description = "Identify the algorithm behind an unknown hash string from its prefix, structure and length."
 readme = "README.md"
